@@ -1,17 +1,46 @@
-# ConsomiTounsiA2022
-Projet Consomi Tounsi A 2022 4ARCTIC5
+# AssignementDEVOPS 
 
-C'est une plateforme de gestion de produits 100% tunisiens.
-Le but est de gérer une boutique qui commercialise exclusivement des produits tunisiens, tout en assurant
-une bonne expérience utilisateur en facilitant l’accès aux produits ainsi que l’achat.
-En effet, l’utilisateur aura droit à une livraison à domicile ainsi qu’au service après-vente.
-Un espace caritatif est exactement fourni à travers la collecte de cagnottes ainsi que l’organisation d’évènements caritatifs.
+#### Made by:
 
-Membres de projets:
-Anas BASSOUMI
-Nour MRAD
-Ghassen RIAHI
-Ghada CHEBBI
-Heni HADJ SESSI
-Nour MALLEK
-.
+- Nour MRAD
+
+
+#### Requirements:
+```
+Postgres (BD: assignmentBD)
+STS (Spring Tools Suite)
+NodeJS
+Webstorm, Intellij (or others)
+
+```
+#### Notes for the backend:
+
+Step 0 : Create manually a database named " assignmentBD " on postgres
+
+Step 1 : Run the springboot application so it will generate all the tables and their constraints in the database
+
+Step 2 : Go to the "roles" table in postgres and insert manually these three roles (so we will be able to do the singup and the login)
+
+--> INSERT INTO public.roles(
+	id, name)
+	VALUES (1, 'ROLE_ADMIN');
+
+--> INSERT INTO public.roles(
+	id, name)
+	VALUES (2, 'ROLE_USER');
+
+--> INSERT INTO public.roles(
+	id, name)
+	VALUES (3, 'ROLE_MODERATOR');
+
+
+Step 3 : Restart both the springboot and angular application and enjoy! :)
+
+[Backend with Spring BOOT Java](https://gitlab.com/Nour9911/internassignmentbackend.git
+).
+
+[Frontend with Angular JS](https://gitlab.com/Nour9911/internassignmentfrontend.git
+).
+
+
+
