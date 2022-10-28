@@ -16,7 +16,7 @@ services:
      - /home/postgres/data:/var/lib/postgres
 
   spring_app:
-    image: 11711911/achat
+    image: 11711911/shopback
     container_name: achatspring
     restart: on-failure
     environment:
