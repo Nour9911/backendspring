@@ -27,7 +27,7 @@ services:
      - postgresdb
 
   angular_app:
-    image: 11711911/achatfront
+    image: 11711911/shopfront
     container_name: achatangular
     restart: on-failure
     ports:
