@@ -1,4 +1,4 @@
-version: "3"
+version 3:
 
 services:
   postgresdb:
@@ -17,7 +17,7 @@ services:
 
   spring_app:
     image: 11711911/shopback
-    container_name: achatspring
+    container_name: shopspring
     restart: on-failure
     environment:
      - spring.datasource.url=jdbc:postgres://postgresdb:3306/assignmentdb
@@ -28,7 +28,7 @@ services:
 
   angular_app:
     image: 11711911/shopfront
-    container_name: achatangular
+    container_name: shopangular
     restart: on-failure
     ports:
      - 4200:80
