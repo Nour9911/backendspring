@@ -36,6 +36,8 @@ Step 2 : Go to the "roles" table in postgres and insert manually these three rol
 
 Step 3 : Restart both the springboot and angular application and enjoy! :)
 
+==> Pipeline ci/cd soon..
+
 [Backend with Spring BOOT Java](https://gitlab.com/Nour9911/internassignmentbackend.git
 ).
 
