@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>fd.assignment</groupId>
-	<artifactId>shopback</artifactId>
+	<artifactId>piCTA22</artifactId>
 	<version>1.0</version>
-	<name>shopback</name>
+	<name>piCTA22</name>
 	<description>internship assignment</description>
 <properties>
 		<java.version>1.8</java.version>
@@ -195,7 +195,7 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
         </plugin>
 		</plugins>
-		<finalName>shopback</finalName>
+		<finalName>piCTA22</finalName>
 	</build>
 
 </project>
