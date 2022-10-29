@@ -1,4 +1,4 @@
 FROM openjdk:8-jre-alpine
-ADD target/piCTA22.jar piCTA22.jar
+ADD target/shopback.jar shotback.jar
 EXPOSE 8080
-CMD ["java", "-jar", "/piCTA22.jar"]
+CMD ["java", "-jar", "/shopback.jar"]
