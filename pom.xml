@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>fd.assignment</groupId>
-	<artifactId>piCTA22</artifactId>
+	<artifactId>shopback</artifactId>
 	<version>1.0</version>
 	<name>piCTA22</name>
 	<description>internship assignment</description>
