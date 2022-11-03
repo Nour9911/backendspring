@@ -5,9 +5,6 @@ services:
     container_name: postgresdb
     image: postgres:15.0
     restart: unless-stopped
-    deploy:
-      mode: replicated
-      replicas: 2
     ports:
      - 5432:5432
     environment:
