@@ -46,7 +46,7 @@ pipeline{
         
         stage("Docker-compose") {
                 steps{
-                    sh 'docker-compose up -d'
+                    sh 'docker-compose --compatibility up -d'
                 }
         }
     }
