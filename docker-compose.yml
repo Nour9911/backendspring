@@ -5,6 +5,9 @@ services:
     container_name: postgresdb
     image: postgres:15.0
     restart: unless-stopped
+    deploy:
+      mode: replicated
+      replicas: 2
     ports:
      - 5432:5432
     environment:
@@ -19,6 +22,9 @@ services:
     image: 11711911/shopback
     container_name: shopspring
     restart: on-failure
+    deploy:
+      mode: replicated
+      replicas: 2
     environment:
      - spring.datasource.url=jdbc:postgresql://postgresdb:5432/assignmentDB
     ports:
@@ -30,6 +36,9 @@ services:
     image: 11711911/shopfront
     container_name: shopangular
     restart: on-failure
+    deploy:
+      mode: replicated
+      replicas: 2
     ports:
      - 4200:80
     depends_on:
